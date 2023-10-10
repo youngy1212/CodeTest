@@ -110,7 +110,7 @@ public class Level0 {
 
      
      class Solution {
-        public int solution(String ineq, String eq, int n, int m) {
+        public int solution61(String ineq, String eq, int n, int m) {
 
             /*홀짝에 따라 다른 값 반환 */
             for(int i = n; i >= 0; i -= 2)
@@ -137,7 +137,54 @@ public class Level0 {
              /*flag에 따라 다른 값 반환하기 */
              return flag ? a + b : a - b;
         }
+
+        //등차수열의 특정한 항만 더하기
+         public int solution62(int a, int d, boolean[] included) {
+            int answer = 0;
+                
+            for(int i = 0; i<included.length; i++){
+                if(included[i]){
+                     answer += i*d+a;
+                }
+            }
+            
+            return answer;
+        }
+
+        //원소들의 합과 곱
+        public int solution71(int[] num_list) {
+            int answer = 0;
+            
+            int sum = 0;
+            int mul = 1;
+            
+            for(int i = 0; i<num_list.length;i++){
+                sum+=num_list[i];
+                mul*=num_list[i];
+            }
+            if(sum * sum > mul){
+                answer = 1;
+            }
+            
+            return answer;
+        }
+
+        public int solution72(int[] num_list) {
+            String a = "";
+            String b = "";
+            
+            for (int i = 0; i < num_list.length ; i++) {
+                if(num_list[i]%2 == 0){
+                    b += num_list[i];
+                }else{
+                    a += num_list[i];
+                }
+            }
+            return Integer.parseInt(a)+Integer.parseInt(b);
+      
+        }
     }
      
+   
 
 }

@@ -14,7 +14,7 @@ public class Running_race {
 
      /* 해설 Hash Map을 사용한 방법 O(N) 시간 복잡도를 가진다.
       * map에 있는 등수와 players에 있는 등수를 다 변경해주어야 함
-      * 그렇기 떄문에 이 코드의 시간 복잡도는 O(n^2)입니다. 
+      * 그렇기 떄문에 이 코드의 시간 복잡도는 O(n+m)입니다. 
      */
 
 
@@ -55,7 +55,6 @@ public class Running_race {
         String[] answer = running_race(players, callings);
         System.out.println(Arrays.toString(answer));
     }
-
     
     
 }

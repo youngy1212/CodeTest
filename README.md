@@ -17,3 +17,6 @@ ArrayList
 Greedy
 
 - [페인트 덧칠](./프로그래머스/Level01/Paint_over.java) : Greedy 알고리즘을 이용한 방법.
+
+- for 반복문
+- [로또 순위](./프로그래머스/Level01/Lotto_rankings.java) : 2중 for문을 이용한 방법

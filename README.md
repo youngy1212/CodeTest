@@ -18,5 +18,10 @@ Greedy
 
 - [페인트 덧칠](./프로그래머스/Level01/Paint_over.java) : Greedy 알고리즘을 이용한 방법.
 
-- for 반복문
+For 반복문
+
 - [로또 순위](./프로그래머스/Level01/Lotto_rankings.java) : 2중 for문을 이용한 방법
+
+정규식 표현
+
+- [ID 추천](./프로그래머스/Level01/ID_recommendation.java) : 정규식 표현을 이용한 문자열 치환

@@ -61,18 +61,18 @@ public class Level0 {
         }
    
 
-    /* 문자열 섞기 */
-    for(int i = 0; i < str1.length(); i++){
-        answer+= str1.charAt(i);
-        answer+= str2.charAt(i);
-    }
+    // /* 문자열 섞기 */
+    // for(int i = 0; i < str1.length(); i++){
+    //     answer+= str1.charAt(i);
+    //     answer+= str2.charAt(i);
+    // }
 
-    /*문자 리스트를 문자열로 변환하기 */
-    for(int i=0; i < arr.length; i++ ){
-        answer += arr[i];
+    // /*문자 리스트를 문자열로 변환하기 */
+    // for(int i=0; i < arr.length; i++ ){
+    //     answer += arr[i];
 
-        // return String.join("", arr); 도 사용가능 join함수
-    }
+    //     // return String.join("", arr); 도 사용가능 join함수
+    // }
 
     //문자열 곱하기 -> 문자열을 k만큼 반복
     //return my_string.repeat(k);
@@ -80,110 +80,110 @@ public class Level0 {
     }
 
     
-    public int solution(int a, int b) {
+    // public int solution(int a, int b) {
 
-        /*더 큰값을 합치기 */
-        String strA = String.valueOf(a);
-        String strB = String.valueOf(b);
-        String strSum1 = strA + strB;
-        String strSum2 = strB + strA;
+    //     /*더 큰값을 합치기 */
+    //     String strA = String.valueOf(a);
+    //     String strB = String.valueOf(b);
+    //     String strSum1 = strA + strB;
+    //     String strSum2 = strB + strA;
        
-        Math.max(Integer.valueOf(strSum1), Integer.valueOf(strSum2));
+    //     Math.max(Integer.valueOf(strSum1), Integer.valueOf(strSum2));
 
-        /*두 수의 연산값 비교하기  */
-        /* max함수의 경우 두값이 같을 경우 앞의 값을 return함 */
-        Math.max(Integer.parseInt(String.valueOf(a)+String.valueOf(b)),2*a*b);
+    //     /*두 수의 연산값 비교하기  */
+    //     /* max함수의 경우 두값이 같을 경우 앞의 값을 return함 */
+    //     Math.max(Integer.parseInt(String.valueOf(a)+String.valueOf(b)),2*a*b);
 
-       /*n의 배수일 경우*/
-       int answer = 0;
+    //    /*n의 배수일 경우*/
+    //    int answer = 0;
         
-       if(num%n == 0){
-           answer = 1;
-       }
+    //    if(num%n == 0){
+    //        answer = 1;
+    //    }
 
-       /* 공배수일 경우 */
-       return number % n == 0 && number % m == 0 ? 1 : 0;
+    //    /* 공배수일 경우 */
+    //    return number % n == 0 && number % m == 0 ? 1 : 0;
 
       
 
-    }
+    // }
 
      
-     class Solution {
-        public int solution61(String ineq, String eq, int n, int m) {
+    //  class Solution {
+    //     public int solution61(String ineq, String eq, int n, int m) {
 
-            /*홀짝에 따라 다른 값 반환 */
-            for(int i = n; i >= 0; i -= 2)
-            answer += (n % 2 == 0) ? i * i : i;
+    //         /*홀짝에 따라 다른 값 반환 */
+    //         for(int i = n; i >= 0; i -= 2)
+    //         answer += (n % 2 == 0) ? i * i : i;
             
-            /* 조건 문자열*/
-            // if (ineq.equals("<") && eq.equals("=")) {
-            // return n <= m ? 1 : 0;
-            // }
+    //         /* 조건 문자열*/
+    //         // if (ineq.equals("<") && eq.equals("=")) {
+    //         // return n <= m ? 1 : 0;
+    //         // }
         
-            // if (ineq.equals("<")) {
-            //     return n < m ? 1 : 0;
-            // }
+    //         // if (ineq.equals("<")) {
+    //         //     return n < m ? 1 : 0;
+    //         // }
         
-            // if (ineq.equals(">") && eq.equals("=")) {
-            //     return n >= m ? 1 : 0;
-            // }
+    //         // if (ineq.equals(">") && eq.equals("=")) {
+    //         //     return n >= m ? 1 : 0;
+    //         // }
         
-            // if (ineq.equals(">")) {
-            //     return n > m ? 1 : 0;
-            // }    
+    //         // if (ineq.equals(">")) {
+    //         //     return n > m ? 1 : 0;
+    //         // }    
         
 
-             /*flag에 따라 다른 값 반환하기 */
-             return flag ? a + b : a - b;
-        }
+    //          /*flag에 따라 다른 값 반환하기 */
+    //          return flag ? a + b : a - b;
+    //     }
 
-        //등차수열의 특정한 항만 더하기
-         public int solution62(int a, int d, boolean[] included) {
-            int answer = 0;
+    //     //등차수열의 특정한 항만 더하기
+    //      public int solution62(int a, int d, boolean[] included) {
+    //         int answer = 0;
                 
-            for(int i = 0; i<included.length; i++){
-                if(included[i]){
-                     answer += i*d+a;
-                }
-            }
+    //         for(int i = 0; i<included.length; i++){
+    //             if(included[i]){
+    //                  answer += i*d+a;
+    //             }
+    //         }
             
-            return answer;
-        }
+    //         return answer;
+    //     }
 
-        //원소들의 합과 곱
-        public int solution71(int[] num_list) {
-            int answer = 0;
+    //     //원소들의 합과 곱
+    //     public int solution71(int[] num_list) {
+    //         int answer = 0;
             
-            int sum = 0;
-            int mul = 1;
+    //         int sum = 0;
+    //         int mul = 1;
             
-            for(int i = 0; i<num_list.length;i++){
-                sum+=num_list[i];
-                mul*=num_list[i];
-            }
-            if(sum * sum > mul){
-                answer = 1;
-            }
+    //         for(int i = 0; i<num_list.length;i++){
+    //             sum+=num_list[i];
+    //             mul*=num_list[i];
+    //         }
+    //         if(sum * sum > mul){
+    //             answer = 1;
+    //         }
             
-            return answer;
-        }
+    //         return answer;
+    //     }
 
-        public int solution72(int[] num_list) {
-            String a = "";
-            String b = "";
+    //     public int solution72(int[] num_list) {
+    //         String a = "";
+    //         String b = "";
             
-            for (int i = 0; i < num_list.length ; i++) {
-                if(num_list[i]%2 == 0){
-                    b += num_list[i];
-                }else{
-                    a += num_list[i];
-                }
-            }
-            return Integer.parseInt(a)+Integer.parseInt(b);
+    //         for (int i = 0; i < num_list.length ; i++) {
+    //             if(num_list[i]%2 == 0){
+    //                 b += num_list[i];
+    //             }else{
+    //                 a += num_list[i];
+    //             }
+    //         }
+    //         return Integer.parseInt(a)+Integer.parseInt(b);
       
-        }
-    }
+    //     }
+    // }
      
    
 

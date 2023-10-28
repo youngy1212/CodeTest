@@ -9,6 +9,7 @@ hashMap
   찾는 key가 존재하면 해당 key에 매핑되어 있는 값을 반환하고, 그렇지 않으면 디폴트 값이 반환
   ]
 - [문자,숫자 변환](./프로그래머스/Level01/Change_text.java) : replaceAll을 사용하여 문자-변환 (Integer등 문자 - 숫자 파싱)
+- [성격유형 검사](./프로그래머스/Level01/Personality_test.java) : map가 for문을 이용한 방법
 
 ArrayList
 

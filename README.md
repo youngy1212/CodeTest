@@ -15,9 +15,10 @@ ArrayList
 
 - [유효기간 종료](./프로그래머스/Level01/Valid_time.java) : Map을 통한 비교 list 통한 비교연산. stream().mapToInt() 을 이용한 스트림 변환
 
-Greedy
+Greedy (완전탐색)
 
 - [페인트 덧칠](./프로그래머스/Level01/Paint_over.java) : Greedy 알고리즘을 이용한 방법.
+- [지갑 크기찾기](./프로그래머스/Level01/Full_search.java) : 완전탐색을 통한 크기 찾기
 
 For 반복문
 

@@ -27,3 +27,7 @@ For 반복문
 정규식 표현
 
 - [ID 추천](./프로그래머스/Level01/ID_recommendation.java) : 정규식 표현을 이용한 문자열 치환
+
+문자열 처리
+
+- [다트 게임](./프로그래머스/Level01/Game_star.java) : 문자열 처리 방법

@@ -2,6 +2,14 @@
 
 ## 코딩테스트
 
+### 백준
+
+그리디
+
+- [동전 0](./백준/그리디/B1931.java) : 백준 11047
+
+### 프로그래머스
+
 hashMap
 
 - [달리기 경주](./프로그래머스/Level01/Running_race.java) : hashMap을 이용한 등수 변경
@@ -10,6 +18,7 @@ hashMap
   ]
 - [문자,숫자 변환](./프로그래머스/Level01/Change_text.java) : replaceAll을 사용하여 문자-변환 (Integer등 문자 - 숫자 파싱)
 - [성격유형 검사](./프로그래머스/Level01/Personality_test.java) : map가 for문을 이용한 방법
+- [메뉴 리뉴얼](./프로그래머스/Level02/Menu_renewal.java) : Hash map과 백트래킹을 사용
 
 ArrayList
 

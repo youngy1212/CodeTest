@@ -1,7 +1,7 @@
 import java.util.*;
 
 
-public class B1929 {
+public class B13395 {
 
     //피보나치수열일아 비슷한 ...
     //f(n) = f(n-1) + f(n-3)인 수열이다.
@@ -17,9 +17,8 @@ public class B1929 {
 
     public static void main(String[] args) {
 
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-
-        int n = Integer.parseInt(br.readLine());
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt(); 
        
         long[] dp = new long[117];
 

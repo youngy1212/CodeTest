@@ -35,7 +35,7 @@ public class Creedy {
     //출력 : 큰수의 법칙으로 구해진 가장 큰 값 
 
 
-    static void 큰수의법칙칙() {
+    static void 큰수의법칙() {
 
         Scanner sc = new Scanner(System.in);
 
